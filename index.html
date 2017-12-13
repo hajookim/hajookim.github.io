@@ -1,1 +1,301 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jade Kim</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+     <script src="https://use.fontawesome.com/a83b3516ff.js"></script>
+
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,400" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+    <div class="row" id="home">
+        <div class="col-sm-8 header-info">
+            <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#workexperience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact </a>
+                        </li> 
+                    </ul>
+                </div>
+            </nav>
+            <img src="img/banner.png" class="banner">
+        </div>
+        <div class="col-sm-4">
+            <p id="caption"> Hello, I'm Jade. I am a web developer. I'm currently a senior at the University of Michigan. </p>
+        </div>
+        
+    </div>
+
+<!-- Work Exp -->
+    <div id="workexperience">
+        <div class="row">
+          <div class="col sm-12">
+            <h1 class="text-center section-heading" style="margin-top: 80px;">Work Experience</h1><br>
+          </div>
+
+        </div>
+        <div class="row">
+            
+                <div class="col-lg-4 work-container">
+                    <img src="img/atto.png" class="company-logo" style="float:left">
+      
+                    <div class="text-container">
+                        <h3>Atto Research</h3>
+                        <p>I've had the opportunity to work with ATTO Research which specializes in SDN/NFV technologies. I started out with an idea from scratch, refined it, and helped it grow.</p>
+                    </div>
+               
+                </div>
+            
+                
+        </div>
+    </div>
+
+    <div class="row"> 
+
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner col-sm-12" >
+                <div class="carousel-item active">
+                    <div class="carousel-container">
+                        <div class="row">
+                            <div class="col sm-12">
+                                <h1 class="text-center section-heading" style="color: white;">Recent Works</h1><br>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="carousel-img-container">
+                                <img class="d-block w-100" src="img/lines.png" alt="First slide" style="height: 400px; width: 500px; float: left;">
+                            </div>
+                            <div class="carousel-text">
+                                <h3 style="color: white"><bold>Lines</bold></h3>
+                                <p class="lead" style="color: white">A thought-sharing platform for writers who want to either start or end their day with a little writing prompt. Each day a new word or a quote is given as the prompt and users can write whatever comes to their mind.</p>
+                                <div class="col-sm-12 text-center">
+                                    <span class="tech-item">
+                                        <i class="devicon-mysql-plain colored"></i>
+                                        <span class="tech-item-text">
+                                        MySQL
+                                        </span>
+                                    </span>
+                                    <span class="tech-item">
+                                        <i class="devicon-php-plain colored"></i>
+                                        <span class="tech-item-text">
+                                        php
+                                        </span>
+                                    </span>
+                                    <span class="tech-item">
+                                        <i class="devicon-jquery-plain colored"></i>
+                                        <span class="tech-item-text">
+                                        jquery
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <div class="row">
+                            <div class="carousel-img-container">
+                                <img class="d-block w-100" src="img/imhome.png" alt="Second slide" style="width: 400px !important; height: 400px;">
+                            </div>
+                             <div class="carousel-text">
+                                <h3 style="color: white"><bold>ImHome</bold></h3>
+                                <p class="lead" style="color: white">A location tracking app that allows users to share their location with selected users in real time. Designed to create a sense of safety for users who feel nervous when traveling alone. At the end of the trip, users and their circle are able to view all tracks of the user.</p>
+                                <div class="col-sm-12 text-center">
+                                    <span class="tech-item">
+                                        <i class="devicon-apple-plain colored"></i>
+                                        <span class="tech-item-text">
+                                        Swift
+                                        </span>
+                                        </span>
+                                    <span class="tech-item">
+                                        <i class="devicon-google-plain colored"></i>
+                                        <span class="tech-item-text">
+                                        Firebase
+                                        </span>
+                                    </span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+        
+    </div>
+
+
+  <!-- Technical Experience -->
+    <div id="technologies">
+    
+        <div class="row">
+            <div class="col sm-12">
+                <h1 class="text-center section-heading">Technologies</h1>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <div class="list-container">
+                    <span class="tech-item">
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <span class="tech-item-text">
+                        C++
+                        </span>
+                    </span>
+                    <span class="tech-item">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span class="tech-item-text">
+                        Javascript
+                        </span>
+                    </span>
+                        <span class="tech-item">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span class="tech-item-text">
+                        html
+                        </span>
+                    </span>
+                    <span class="tech-item">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span class="tech-item-text">
+                        MySQL
+                        </span>
+                    </span>
+                    <span class="tech-item">
+                        <i class="devicon-github-plain colored"></i>
+                        <span class="tech-item-text">
+                        Github
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+  <!-- <section>
+    <div class="row">
+      <div class="col xs-12">
+        <h1 class="text-center section-heading">Tools</h1>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <div class="list-container">
+            <span class="tech-tool-item">
+              <span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span>
+              Xcode
+            </span>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+    
+    <div class="row" id="contact">
+      <div class="col footer-col text-center">
+        <h3>I'm available for work</h3>
+        <a href="mailto:hajookim@umich.edu" class="email"><span class="fa fa-envelope" aria-hidden="true"></span>hajookim@umich.edu</a>
+      </div>
+    </div>
+    <footer style="background-color: #252A31; height: 200px; text-align: center" id="contact">
+            <div class="container social-links">
+                <p style="color: white">Handmade by me &copy; 2017.<br><br> Find Me on  </p>               
+                <a href="https://twitter.com/qvorxess"><i class="fa fa-twitter"></i>  </a>
+                <a href="https://www.linkedin.com/in/jade-kim-a78881113" target="_blank"><i class="fa fa-linkedin"></i> </a>
+                <a href="https://github.com/hajookim" target="_blank"><i class="fa fa-github"></i>  </a>
+                <a href="https://500px.com/qvorxess"><i class="fa fa-500px" aria-hidden="true"></i></a>
+            </div>
+      </footer>
+
+    </div> <!-- end container -->
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('.carousel').carousel(); 
+        var captionLength = 0;
+        var caption = '';
+        $(document).ready(function() {
+            setInterval ('cursorAnimation()', 600);
+            captionEl = $('#caption');
+            caption = $('#caption').html();
+            type(); 
+        });
+        
+        function type() {
+
+            captionEl.html(caption.substr(0, captionLength++));
+            if(captionLength < caption.length+1) {
+                setTimeout('type()', 100);
+            } else {
+                captionLength = 0;
+                caption = '';
+            }
+        }
+        function cursorAnimation() {
+            $('#cursor').animate({
+                opacity: 0
+            }, 'fast', 'swing').animate({
+                opacity: 1
+            }, 'fast', 'swing');
+        }
+
+
+    </script>
+  </body>
+</html>

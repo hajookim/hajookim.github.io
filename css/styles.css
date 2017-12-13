@@ -1,0 +1,187 @@
+
+h1, h2, h3, h4, h5{
+    color:#4A4E69;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #4A4E69;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-heading {
+    text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+hr {
+    max-width:300px;
+}
+
+
+.header-info {
+    height: 50%;
+    width: 100%; 
+}
+.profile-banner {
+    background: url('../img/banner.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.banner {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    
+}
+
+.profile-pic {
+    border-radius:50%;
+    width:40%;
+    max-width: 200px;
+}
+
+.header-col h2 {
+    font-size: 1.3em;
+
+  margin-top: 0;
+}
+
+.email {
+  margin-top:20px;
+}
+
+.email .glyphicon {
+    margin-right:5px;
+}
+
+
+.project-img-col img {
+  max-width: 250px;
+  margin: auto;
+}
+.company-logo {
+    width: 200px;
+}
+.project-logo {
+    width: 300px; 
+}
+.list-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.techlogo {
+    width:140px;
+    margin: 10px;
+}
+
+.tech-item {
+    margin:10px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tech-item-text {
+    margin-top:10px;
+    color: white;
+}
+
+.tech-item i {
+    font-size:5em;
+}
+
+
+.row-footer {
+    padding: 0vh 10vw 10vw 10vw;
+    margin-top:40px;
+    background-image: url('../img/bg.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footer-col {
+    position: relative;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+  top: -60px;
+  padding: 50px 0;
+  max-width:400px;
+  margin:auto;
+}
+
+
+
+
+
+.carousel-container {
+  width: 1000px !important;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.carousel-text {
+  text-align: center;
+  width: 500px;
+  float: left;
+}
+#mycarousel {
+  width: 100%;
+  background-color: #555555;
+  margin: 0 auto;
+  padding: 0; 
+}
+.carousel-inner {
+  margin: 0 auto;
+
+}
+.carousel-img-container {
+  width: 500px; 
+}
+.work-container {
+  margin: 0 auto;
+  padding: 5;
+  margin-bottom: 20px; 
+}
+
+.text-container {
+  width: 500px; 
+  margin: 20px 20px 20px 60px;
+  text-align: center; 
+}
+
+#technologies {
+  height: 300px;
+  width: 100%;
+  background-color: #252A30;
+  padding: 20px;
+
+}
+#workexperience {
+  background-color: #FED766;
+  width: 100%;
+  padding: 10px;
+
+}
+
+#caption {
+    font-family: 'Arvo', sans-serif;
+    font-size: 380%;
+    margin-top: 40px;
+}
