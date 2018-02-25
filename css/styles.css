@@ -229,6 +229,7 @@ hr {
   bottom: 0;
   width: 400px;
   padding: 15px;
+  left: 45px;
 
 }
  
@@ -239,9 +240,13 @@ hr {
   width: 0;
   height: 0;
   border-style: solid;
+  left: -15px;
+  top: 50px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
 }
 
-.timeline ul li:nth-child(odd) div {
+/*.timeline ul li:nth-child(odd) div {
   left: 45px;
 }
  
@@ -250,15 +255,18 @@ hr {
   top: 50px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #F45B69 transparent transparent;
-}
+}*/
 
-.timeline ul li:nth-child(even) div {
-  left: -439px;
-}
+@media only screen and (min-width: 768px) {
+    .timeline ul li:nth-child(even) div {
+    /*right: -15px;*/
+        left: -445px;
+    }
  
-.timeline ul li:nth-child(even) div::before {
-  right: -15px;
-  top: 50px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+    .timeline ul li:nth-child(even) div::before {
+        left: 404px;
+        /*top: 50px;*/
+        border-width: 8px 0 8px 16px;
+        border-color: transparent transparent transparent #F45B69;
+    } 
 }
