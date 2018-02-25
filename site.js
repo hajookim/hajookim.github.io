@@ -5,7 +5,7 @@ var caption = '';
 
 //typing animation for caption 
 $(document).ready(function() {
-    setInterval ('cursorAnimation()', 600);
+    setInterval ('cursorAnimation()', 250);
     captionEl = $('#caption');
     caption = $('#caption').html();
     type(); 
