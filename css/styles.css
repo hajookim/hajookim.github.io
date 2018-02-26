@@ -197,7 +197,15 @@ hr {
   margin: 0 auto; */
 }
 
-
+.circle {
+  position: absolute;
+  border-style: solid; 
+  border-width: 7px; 
+  border-color: #F45B69;
+  border-radius: 50%;
+  top: 93px;
+  left: 275px; 
+}
 /*
 .col-sm {
   margin: 10px;
